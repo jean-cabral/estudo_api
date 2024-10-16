@@ -1,0 +1,226 @@
+# AWS User-specific
+.idea/**/aws.xml
+
+# Backup files # 
+*.bak 
+
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.* 
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Distribution / packaging 
+.Python build/ 
+develop-eggs/ 
+dist/ 
+downloads/ 
+eggs/ 
+.eggs/ 
+lib/ 
+lib64/ 
+parts/ 
+sdist/ 
+var/ 
+wheels/ 
+*.egg-info/ 
+.installed.cfg 
+*.egg 
+*.manifest 
+*.spec 
+
+# Django #
+*.log
+*.pot
+*.pyc
+_pycache_
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media
+/media
+media/
+
+# Environments
+.env
+.venv
+env/
+venv/
+venv_folia/
+ENV/
+env.bak/
+venv.bak/
+venv_folia.bak/
+
+
+# File-based project format
+*.iws
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# User-specific stuff (If you are using PyCharm)
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# IntelliJ
+out/
+
+# Installer logs 
+pip-log.txt 
+pip-delete-this-directory.txt 
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Jupyter Notebook 
+.ipynb_checkpoints 
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# mkdocs documentation 
+/site 
+
+# mypy 
+.mypy_cache/ 
+
+# Package control specific files Package 
+Control.last-run 
+Control.ca-list 
+Control.ca-bundle 
+Control.system-ca-bundle 
+GitHub.sublime-settings 
+
+# pyenv 
+.python-version 
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# Python # 
+*.py[cod] 
+*$py.class 
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# PyBuilder
+target/
+
+# Pyre type checker
+.pyre/
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+_pypackages_/
+
+# Rope project settings
+.ropeproject
+
+# SageMath parsed files 
+*.sage.py 
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Sublime Text # 
+*.tmlanguage.cache 
+*.tmPreferences.cache 
+*.stTheme.cache 
+*.sublime-workspace 
+*.sublime-project 
+
+# sftp configuration file 
+sftp-config.json 
+
+# Translations
+*.mo
+*.pot
+
+
+# Unit test / coverage reports 
+htmlcov/ 
+.tox/ 
+.nox/
+.coverage 
+.coverage.* 
+.cache 
+.pytest_cache/ 
+nosetests.xml 
+coverage.xml 
+*.cover 
+.hypothesis/ 
+*.py,cover
+
+
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history

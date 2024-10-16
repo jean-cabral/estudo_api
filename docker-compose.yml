@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: postgres:14
+    container_name: db_api_estudo
+    environment:
+     - POSTGRES_DB=${DATABASE_NAME}
+     - POSTGRES_USER=${DATABASE_USER}
+     - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
+    ports:
+    - '5432:5432'
+    volumes:
+    - pg_data:/var/lib/postgresql/data
+
+  django:
+    build: .
+    container_name: django_api_estudo
+    ports:
+      - '8000:8000'
+    volumes:
+      - .:/app
+    environment:
+      - DATABASE_NAME=${DATABASE_NAME}
+      - DATABASE_USER=${DATABASE_USER}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}
+      - DATABASE_HOST=${DATABASE_HOST_DOCKER}
+      - DATABASE_PORT=${DATABASE_PORT}
+    depends_on:
+      - postgres
+
+volumes:
+  pg_data:
